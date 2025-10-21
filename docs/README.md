@@ -34,12 +34,11 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 
 ## Logging & gestion d’erreurs : 
 
-Loguru pour un logging clair et structuré (fichier logs/app.log)
-Middleware personnalisé pour enregistrer toutes les requêtes
-Gestion d’erreurs centralisée via error_handler.py
-Exceptions typées (ex: StockError) pour une meilleure traçabilité
-├── requirements.txt                # Dépendances du projet
-└── .gitignore
+-Loguru pour un logging clair et structuré (fichier logs/app.log)
+
+-Middleware personnalisé pour enregistrer toutes les requêtes
+
+-Gestion d’erreurs centralisée via error_handler.py
 
 ##
 
