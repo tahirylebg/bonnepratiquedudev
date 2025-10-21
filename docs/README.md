@@ -20,50 +20,6 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 
 
 ## L'installation de notre projet et l'execution est le suivant : 
-=======
-bookstore_api/
-├── app/
-│   ├── main.py                     # Point d'entrée de l'application FastAPI
-│   ├── api/                        # Routes et endpoints
-│   │   ├── books.py                # Routes /books (GET, POST, GET/{id})
-│   │   └── orders.py               # Routes /orders (POST)
-│   │
-│   ├── services/                   # Logique métier
-│   │   ├── book_service.py         # Gestion des livres (CRUD)
-│   │   └── order_service.py        # Gestion des commandes
-│   │
-│   ├── models/                     # Schémas de données (Pydantic)
-│   │   ├── book_model.py
-│   │   └── order_model.py
-│   │
-│   ├── database/                   # Simulation d'une base de données locale (JSON)
-│   │   └── db.py
-│   │
-│   ├── core/                       # Cœur technique (logs, erreurs, utilitaires)
-│   │   ├── logging_config.py
-│   │   ├── errors.py
-│   │   └── utils.py
-│   │
-│   ├── middlewares/                # Middleware personnalisés
-│   │   ├── request_logger.py
-│   │   └── error_handler.py
-│   │
-│   └── __init__.py
-│
-├── tests/                          # Tests unitaires et d’intégration
-│   ├── test_books.py
-│   ├── test_orders.py
-│   └── conftest.py
-│
-├── logs/
-│   ├── app.log                     # Logs applicatifs
-│   └── error.log                   # Logs d’erreurs
-│
-├── docs/
-│   ├── README.md                   # Documentation projet
-│   ├── RUNBOOK.md                  # Procédures de debug & rollback
-│   └── ARCHITECTURE.md             # Décisions techniques & schéma logique
-│
 
 L'installation de notre projet et l'execution est le suivant : 
 >>>>>>> 442ce5b (chore(project): finalisation du projet et préparation à la soutenance)
@@ -77,7 +33,7 @@ L'installation de notre projet et l'execution est le suivant :
 - On clique sur le lien puis ont tape http://"le lien " 
 - Pour la partie test on test avec cet commande : pytest -v
 
-- Si on a déjà venv installé : on tape cmd et on reprends de .\venv\Scripts\
+- Si on a déjà venv installé : on tape cmd et on reprends a partir de .\venv\Scripts\
 
 
 ## Logging & gestion d’erreurs : 
