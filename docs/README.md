@@ -43,11 +43,11 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 ##
 
 ## Bonne pratique qu'on a respecté :
-✅ Convention de commits Conventional Commits (feat, fix, chore, etc.)
-✅ Architecture modulaire et scalable
-✅ Tests automatisés et reproductibles
-✅ Documentation claire et complète
-✅ Logs centralisés et gestion d’erreurs propre
+- Convention de commits Conventional Commits (feat, fix, chore, etc.)
+- Architecture modulaire et scalable
+- Tests automatisés et reproductibles
+- Documentation claire et complète (Commentaire claire et explicite , ReadMe/RunBook ) 
+- Logs centralisés et gestion d’erreurs propre
 
 Language de programmation utilisé : python 
 
