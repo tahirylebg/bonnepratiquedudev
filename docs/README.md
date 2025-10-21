@@ -25,7 +25,7 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 
 - On crée un environnement virtuelle comme ceci : python -m venv venv
 - On l'active : .\venv\Scripts\activate
-- Nous lancons notre API : uvicorn app.main:app --reload
+- Nous lancons notre API : uvicorn app.main:app --reload ( unicorn sert à faire tourner une application web Python en production. Il se place entre l'application et le serveur web )
 - On clique sur le lien puis ont tape http://"le lien " 
 - Pour la partie test on test avec cet commande : pytest -v
 
