@@ -12,10 +12,6 @@ find_by_id : Recherche un élément par son identifiant dans une liste d'objets 
              essaie de lire est égale à l'identifiant qu'on cherche donc on a trouvé l'objet.
              Sinon on retourne None , parce ca veut dire qu'il n'existe pas.
 
-
-
-
-
 """
 
 from datetime import datetime

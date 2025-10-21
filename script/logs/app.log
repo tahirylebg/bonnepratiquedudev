@@ -1,0 +1,8 @@
+2025-10-21 02:47:56.838 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Fahrenheit 451
+2025-10-21 02:47:56.839 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fahrenheit 451
+2025-10-21 02:47:56.839 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Dune
+2025-10-21 02:47:56.839 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Dune
+2025-10-21 02:48:31.747 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Fahrenheit 451
+2025-10-21 02:48:31.748 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fahrenheit 451
+2025-10-21 02:48:31.748 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Dune
+2025-10-21 02:48:31.749 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Dune

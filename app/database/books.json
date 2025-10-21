@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 10.99,
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "title": "Le Petit Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 8.5,
+    "stock": 3
+  },
+  {
+    "id": 10,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "price": 12.5,
+    "stock": 4
+  },
+  {
+    "id": 11,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "price": 14.0,
+    "stock": 6
+  },
+  {
+    "id": 10,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "price": 12.5,
+    "stock": 4
+  },
+  {
+    "id": 11,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "price": 14.0,
+    "stock": 6
+  },
+  {
+    "id": 3,
+    "title": "L'Étranger",
+    "author": "Albert Camus",
+    "price": 9.99,
+    "stock": 4
+  }
+]
