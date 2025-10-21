@@ -18,9 +18,7 @@ Les erreurs sont gérées via `HTTPException` avec des statuts explicites (ex. 4
 
 Dans ce fichier :
 
-list_books : Retourne la liste de tous les livres disponibles
-get_book : Retourne un livre spécifique selon son ID.
-           book=book_service.get_book(book_id) -> Va chercher le livre qui correspond à cet identifiant (book_id)
+get_book : book=book_service.get_book(book_id) -> Va chercher le livre qui correspond à cet identifiant (book_id)
            dans la base de données (ou la simulation de base).
            si ont ne le trouve pas , le livre est donc introuvable sinon il retourne le livre
 create_book : Ajoute un nouveau livre à la boutique.
@@ -37,11 +35,13 @@ router = APIRouter()
 
 @router.get("/")
 def list_books():
+    #Retourne la liste de tous les livres disponibles
     return book_service.get_all_books()
 
 
 @router.get("/{book_id}")
 def get_book(book_id: int):
+    #Retourne un livre spécifique selon son ID.
     book = book_service.get_book(book_id)
     if not book:
         raise HTTPException(status_code=404, detail="Livre introuvable")
@@ -50,7 +50,6 @@ def get_book(book_id: int):
 
 @router.post("/")
 def create_book(book: Book):
-    """Ajoute un nouveau livre à la boutique."""
     new_book = book_service.add_book(book)
     return {
         "message": "Livre ajouté avec succès",

@@ -50,3 +50,211 @@
 2025-10-21 03:15:23.527 | INFO     | app.services.book_service:get_book:14 - Recherche du livre avec id=1
 2025-10-21 03:15:23.527 | INFO     | app.services.book_service:get_book:17 - Livre trouvé : 1984
 2025-10-21 03:15:23.527 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/1
+2025-10-21 06:34:15.931 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 06:34:15.935 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 06:34:20.574 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 06:34:20.575 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 06:34:20.760 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 06:34:20.788 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 06:35:08.683 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books
+2025-10-21 06:35:08.684 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 06:35:08.690 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/
+2025-10-21 06:35:08.692 | INFO     | app.services.book_service:get_all_books:9 - Récupération de tous les livres
+2025-10-21 06:35:08.695 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 06:35:08.706 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/books
+2025-10-21 06:35:08.707 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 06:35:08.711 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/books/
+2025-10-21 06:35:08.714 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : L'Étranger
+2025-10-21 06:35:08.716 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : L'Étranger
+2025-10-21 06:35:08.717 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 06:35:08.723 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books
+2025-10-21 06:35:08.724 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 06:35:08.730 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/
+2025-10-21 06:35:08.732 | INFO     | app.services.book_service:get_all_books:9 - Récupération de tous les livres
+2025-10-21 06:35:08.735 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 06:35:08.744 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/999
+2025-10-21 06:35:08.746 | INFO     | app.services.book_service:get_book:14 - Recherche du livre avec id=999
+2025-10-21 06:35:08.746 | WARNING  | app.services.book_service:get_book:19 - Livre id=999 introuvable
+2025-10-21 06:35:08.747 | WARNING  | app.middlewares.error_handler:http_exception_handler:31 - HTTP Error 404: Livre introuvable
+2025-10-21 06:35:08.747 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 404 http://testserver/books/999
+2025-10-21 06:35:08.756 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/1
+2025-10-21 06:35:08.758 | INFO     | app.services.book_service:get_book:14 - Recherche du livre avec id=1
+2025-10-21 06:35:08.759 | INFO     | app.services.book_service:get_book:17 - Livre trouvé : 1984
+2025-10-21 06:35:08.760 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/1
+2025-10-21 06:35:08.766 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/orders
+2025-10-21 06:35:08.767 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/orders
+2025-10-21 06:35:08.772 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/orders/
+2025-10-21 06:35:08.775 | INFO     | app.services.order_service:create_order:20 - Création d'une commande (id=1) avec 1 livres
+2025-10-21 06:35:08.776 | INFO     | app.services.order_service:create_order:27 - Stock mis à jour pour '1984' → 4 restants
+2025-10-21 06:35:08.776 | SUCCESS  | app.services.order_service:create_order:34 - Commande créée avec succès (total=10.99€)
+2025-10-21 06:35:08.777 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/orders/
+2025-10-21 06:35:08.782 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/1
+2025-10-21 06:35:08.784 | INFO     | app.services.book_service:get_book:14 - Recherche du livre avec id=1
+2025-10-21 06:35:08.784 | INFO     | app.services.book_service:get_book:17 - Livre trouvé : 1984
+2025-10-21 06:35:08.785 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/1
+2025-10-21 07:09:43.055 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:09:43.056 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:09:52.606 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/redoc
+2025-10-21 07:09:52.607 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/redoc
+2025-10-21 07:09:52.785 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:09:52.792 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:10:17.794 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:10:17.795 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:17:29.418 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:17:29.418 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:19:01.245 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:19:01.246 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:19:01.315 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:19:01.316 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:19:10.966 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:19:10.967 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:19:30.373 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/books/
+2025-10-21 07:19:30.374 | INFO     | app.services.book_service:get_all_books:9 - Récupération de tous les livres
+2025-10-21 07:19:30.376 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 07:19:35.113 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/books/
+2025-10-21 07:19:35.113 | INFO     | app.services.book_service:get_all_books:9 - Récupération de tous les livres
+2025-10-21 07:19:35.115 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 07:19:37.573 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/books/
+2025-10-21 07:19:37.574 | INFO     | app.services.book_service:get_all_books:9 - Récupération de tous les livres
+2025-10-21 07:19:37.576 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 07:20:30.575 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/redoc
+2025-10-21 07:20:30.575 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/redoc
+2025-10-21 07:20:30.672 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:20:30.672 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:36:07.263 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:36:07.266 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:39:24.168 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:39:24.175 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:39:33.407 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:39:33.408 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:39:33.456 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:39:33.523 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:39:33.582 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:39:33.599 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:39:33.601 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:39:33.604 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 404 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:41:28.686 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:41:28.690 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:41:37.099 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:41:37.101 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:41:37.126 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:41:37.196 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:41:37.250 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:41:37.262 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:44:09.241 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:44:09.249 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:44:14.946 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:44:14.948 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:44:14.991 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:44:15.045 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:44:15.103 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:44:15.116 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:47:17.427 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:47:17.429 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:47:22.051 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:47:22.052 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:47:22.093 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:47:22.161 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:47:22.214 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:47:22.226 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:49:39.258 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:49:39.259 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:49:39.420 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/favicon.ico
+2025-10-21 07:49:39.421 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 404 http://127.0.0.1:8000/favicon.ico
+2025-10-21 07:49:43.640 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 07:49:43.641 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 07:49:43.668 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:49:43.676 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 07:49:43.750 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:49:43.751 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 07:49:43.848 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:49:43.850 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:50:54.630 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:50:54.633 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 07:51:18.741 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/books/12
+2025-10-21 07:51:18.742 | INFO     | app.services.book_service:get_book:14 - Recherche du livre avec id=12
+2025-10-21 07:51:18.742 | INFO     | app.services.book_service:get_book:17 - Livre trouvé : Neuromancien
+2025-10-21 07:51:18.743 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/12
+2025-10-21 07:53:03.055 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 07:53:03.066 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 07:53:07.824 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/redoc
+2025-10-21 07:53:07.824 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/redoc
+2025-10-21 07:53:08.000 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 07:53:08.016 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 08:20:09.770 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 08:20:09.772 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 08:20:15.217 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 08:20:15.217 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 08:20:15.229 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 08:20:15.268 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 08:20:15.300 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 08:20:15.307 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 08:20:15.307 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 08:20:15.309 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 10:02:52.534 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 10:02:52.537 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 10:02:57.857 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 10:02:57.858 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 10:02:57.895 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 10:02:57.995 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 10:02:58.081 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 10:02:58.100 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 10:02:58.101 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 10:02:58.106 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 10:37:33.900 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/
+2025-10-21 10:37:33.902 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/
+2025-10-21 10:37:39.545 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/docs
+2025-10-21 10:37:39.546 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/docs
+2025-10-21 10:37:39.577 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 10:37:39.635 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/custom_swagger.css
+2025-10-21 10:37:39.684 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/openapi.json
+2025-10-21 10:37:39.696 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/openapi.json
+2025-10-21 10:37:39.697 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 10:37:39.700 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 304 http://127.0.0.1:8000/static/favicon.ico
+2025-10-21 10:39:01.558 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://127.0.0.1:8000/books/
+2025-10-21 10:39:01.561 | INFO     | app.services.book_service:add_book:49 - Ajout du livre : Les miserables 
+2025-10-21 10:39:01.565 | SUCCESS  | app.services.book_service:add_book:51 - Livre ajouté avec succès : Les miserables 
+2025-10-21 10:39:01.566 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 10:39:02.957 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://127.0.0.1:8000/books/
+2025-10-21 10:39:02.960 | INFO     | app.services.book_service:add_book:49 - Ajout du livre : Les miserables 
+2025-10-21 10:39:02.963 | SUCCESS  | app.services.book_service:add_book:51 - Livre ajouté avec succès : Les miserables 
+2025-10-21 10:39:02.964 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 10:39:28.088 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://127.0.0.1:8000/books/
+2025-10-21 10:39:28.097 | INFO     | app.services.book_service:get_all_books:33 - Récupération de tous les livres
+2025-10-21 10:39:28.104 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://127.0.0.1:8000/books/
+2025-10-21 10:40:10.073 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books
+2025-10-21 10:40:10.074 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 10:40:10.079 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/
+2025-10-21 10:40:10.080 | INFO     | app.services.book_service:get_all_books:33 - Récupération de tous les livres
+2025-10-21 10:40:10.084 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 10:40:10.094 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/books
+2025-10-21 10:40:10.095 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 10:40:10.099 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/books/
+2025-10-21 10:40:10.102 | INFO     | app.services.book_service:add_book:49 - Ajout du livre : L'Étranger
+2025-10-21 10:40:10.105 | SUCCESS  | app.services.book_service:add_book:51 - Livre ajouté avec succès : L'Étranger
+2025-10-21 10:40:10.106 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 10:40:10.111 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books
+2025-10-21 10:40:10.112 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/books
+2025-10-21 10:40:10.117 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/
+2025-10-21 10:40:10.127 | INFO     | app.services.book_service:get_all_books:33 - Récupération de tous les livres
+2025-10-21 10:40:10.130 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/
+2025-10-21 10:40:10.140 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/999
+2025-10-21 10:40:10.142 | INFO     | app.services.book_service:get_book:39 - Recherche du livre avec id=999
+2025-10-21 10:40:10.142 | WARNING  | app.services.book_service:get_book:44 - Livre id=999 introuvable
+2025-10-21 10:40:10.143 | WARNING  | app.middlewares.error_handler:http_exception_handler:31 - HTTP Error 404: Livre introuvable
+2025-10-21 10:40:10.143 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 404 http://testserver/books/999
+2025-10-21 10:40:10.152 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/1
+2025-10-21 10:40:10.154 | INFO     | app.services.book_service:get_book:39 - Recherche du livre avec id=1
+2025-10-21 10:40:10.154 | INFO     | app.services.book_service:get_book:42 - Livre trouvé : 1984
+2025-10-21 10:40:10.155 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/1
+2025-10-21 10:40:10.160 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/orders
+2025-10-21 10:40:10.161 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 307 http://testserver/orders
+2025-10-21 10:40:10.166 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ POST http://testserver/orders/
+2025-10-21 10:40:10.168 | INFO     | app.services.order_service:create_order:36 - Création d'une commande (id=1) avec 1 livres
+2025-10-21 10:40:10.169 | INFO     | app.services.order_service:create_order:43 - Stock mis à jour pour '1984' → 4 restants
+2025-10-21 10:40:10.169 | SUCCESS  | app.services.order_service:create_order:50 - Commande créée avec succès (total=10.99€)
+2025-10-21 10:40:10.170 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/orders/
+2025-10-21 10:40:10.175 | INFO     | app.middlewares.request_logger:dispatch:37 - ➡️ GET http://testserver/books/1
+2025-10-21 10:40:10.177 | INFO     | app.services.book_service:get_book:39 - Recherche du livre avec id=1
+2025-10-21 10:40:10.177 | INFO     | app.services.book_service:get_book:42 - Livre trouvé : 1984
+2025-10-21 10:40:10.177 | INFO     | app.middlewares.request_logger:dispatch:39 - ⬅️ 200 http://testserver/books/1

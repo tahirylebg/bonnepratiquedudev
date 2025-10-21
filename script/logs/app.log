@@ -6,3 +6,71 @@
 2025-10-21 02:48:31.748 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fahrenheit 451
 2025-10-21 02:48:31.748 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Dune
 2025-10-21 02:48:31.749 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Dune
+2025-10-21 05:53:28.120 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Fahrenheit 451
+2025-10-21 05:53:28.124 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fahrenheit 451
+2025-10-21 05:53:28.124 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Dune
+2025-10-21 05:53:28.125 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Dune
+2025-10-21 06:28:55.786 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : 1984
+2025-10-21 06:28:55.788 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : 1984
+2025-10-21 06:28:55.788 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Meilleur des Mondes
+2025-10-21 06:28:55.789 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Meilleur des Mondes
+2025-10-21 06:28:55.790 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : La Horde du Contrevent
+2025-10-21 06:28:55.791 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : La Horde du Contrevent
+2025-10-21 06:28:55.791 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Les Misérables
+2025-10-21 06:28:55.792 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Les Misérables
+2025-10-21 06:28:55.792 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : L'Étranger
+2025-10-21 06:28:55.793 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : L'Étranger
+2025-10-21 06:28:55.793 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Harry Potter à l'école des sorciers
+2025-10-21 06:28:55.795 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Harry Potter à l'école des sorciers
+2025-10-21 06:28:55.795 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Seigneur des Anneaux
+2025-10-21 06:28:55.796 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Seigneur des Anneaux
+2025-10-21 06:28:55.796 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Petit Prince
+2025-10-21 06:28:55.797 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Petit Prince
+2025-10-21 06:28:55.797 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Shining
+2025-10-21 06:28:55.799 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Shining
+2025-10-21 06:28:55.799 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Fondation
+2025-10-21 06:28:55.800 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fondation
+2025-10-21 06:28:55.800 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Nom du Vent
+2025-10-21 06:28:55.801 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Nom du Vent
+2025-10-21 06:28:55.802 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Neuromancien
+2025-10-21 06:28:55.803 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Neuromancien
+2025-10-21 06:28:55.803 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Les Fleurs du mal
+2025-10-21 06:28:55.804 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Les Fleurs du mal
+2025-10-21 06:28:55.805 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Parfum
+2025-10-21 06:28:55.806 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Parfum
+2025-10-21 06:28:55.806 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : La Peste
+2025-10-21 06:28:55.808 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : La Peste
+2025-10-21 06:28:55.808 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : American Gods
+2025-10-21 06:28:55.809 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : American Gods
+2025-10-21 07:09:26.821 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : 1984
+2025-10-21 07:09:26.822 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : 1984
+2025-10-21 07:09:26.822 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Meilleur des Mondes
+2025-10-21 07:09:26.823 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Meilleur des Mondes
+2025-10-21 07:09:26.823 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : La Horde du Contrevent
+2025-10-21 07:09:26.824 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : La Horde du Contrevent
+2025-10-21 07:09:26.824 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Les Misérables
+2025-10-21 07:09:26.824 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Les Misérables
+2025-10-21 07:09:26.824 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : L'Étranger
+2025-10-21 07:09:26.825 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : L'Étranger
+2025-10-21 07:09:26.825 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Harry Potter à l'école des sorciers
+2025-10-21 07:09:26.826 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Harry Potter à l'école des sorciers
+2025-10-21 07:09:26.826 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Seigneur des Anneaux
+2025-10-21 07:09:26.826 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Seigneur des Anneaux
+2025-10-21 07:09:26.827 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Petit Prince
+2025-10-21 07:09:26.827 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Petit Prince
+2025-10-21 07:09:26.827 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Shining
+2025-10-21 07:09:26.828 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Shining
+2025-10-21 07:09:26.828 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Fondation
+2025-10-21 07:09:26.829 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Fondation
+2025-10-21 07:09:26.829 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Nom du Vent
+2025-10-21 07:09:26.829 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Nom du Vent
+2025-10-21 07:09:26.829 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Neuromancien
+2025-10-21 07:09:26.830 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Neuromancien
+2025-10-21 07:09:26.830 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Les Fleurs du mal
+2025-10-21 07:09:26.831 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Les Fleurs du mal
+2025-10-21 07:09:26.831 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : Le Parfum
+2025-10-21 07:09:26.831 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : Le Parfum
+2025-10-21 07:09:26.832 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : La Peste
+2025-10-21 07:09:26.832 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : La Peste
+2025-10-21 07:09:26.832 | INFO     | app.services.book_service:add_book:24 - Ajout du livre : American Gods
+2025-10-21 07:09:26.833 | SUCCESS  | app.services.book_service:add_book:26 - Livre ajouté avec succès : American Gods

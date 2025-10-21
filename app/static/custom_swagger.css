@@ -1,0 +1,113 @@
+/* 🌟 Style général global */
+body {
+    background-color: #f3f4f6 !important;  /* gris clair */
+    font-family: "Poppins", "Segoe UI", sans-serif !important;
+    font-size: 18px !important;  /* plus grand */
+    color: #111827 !important;
+    line-height: 1.8 !important;
+    letter-spacing: 0.2px !important;
+}
+
+/* En-tête bleue élégante */
+.swagger-ui .topbar {
+    background-color: #1d4ed8 !important; /* bleu plus vif */
+    padding: 15px 0 !important;
+    border-bottom: 4px solid #1e40af !important;
+}
+
+.swagger-ui .topbar a {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Titre principal */
+.swagger-ui .info .title {
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    color: #1e3a8a !important;
+    margin-bottom: 10px !important;
+}
+
+/* Sous-titre / description */
+.swagger-ui .info p,
+.swagger-ui .markdown p {
+    font-size: 1.15rem !important;
+    color: #374151 !important;
+    margin-top: 10px !important;
+}
+
+/* Tags (Books, Orders...) */
+.opblock-tag {
+    font-size: 1.7rem !important;
+    color: #2563eb !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    margin-top: 30px !important;
+}
+
+/* Boutons GET / POST etc */
+.swagger-ui .opblock-summary-method {
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    padding: 8px 16px !important;
+    letter-spacing: 0.3px !important;
+}
+
+.swagger-ui .opblock-summary-description {
+    font-size: 1.05rem !important;
+    color: #374151 !important;
+}
+
+/* Boîtes de requêtes / réponses */
+.swagger-ui .opblock {
+    border-radius: 14px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
+    background-color: #ffffff !important;
+    margin-bottom: 25px !important;
+    transition: all 0.3s ease;
+}
+.swagger-ui .opblock:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Texte des réponses */
+.swagger-ui .response-col_description__inner {
+    font-size: 1rem !important;
+}
+
+/* Champs d'entrée JSON */
+.swagger-ui textarea,
+.swagger-ui input {
+    font-size: 1rem !important;
+    padding: 6px 10px !important;
+    border-radius: 8px !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+/* Espacement général */
+.swagger-ui .wrapper {
+    max-width: 1400px !important;
+    margin: auto !important;
+    padding: 20px !important;
+}
+
+/* Footer + liens */
+.swagger-ui a {
+    font-size: 1.05rem !important;
+    color: #1d4ed8 !important;
+    text-decoration: none;
+}
+.swagger-ui a:hover {
+    text-decoration: underline;
+}
+
+/* Titres secondaires */
+h2, h3 {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #111827 !important;
+}
