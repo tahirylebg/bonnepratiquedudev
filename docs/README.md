@@ -42,6 +42,17 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 
 ##
 
+## Sources et stack technique 
+
+Language : Python 3.11
+Framework : FastAPI
+Serveur : Unicorn
+Libraries clés : Pydantic , Loguru ,PyTest ,
+Environnement : Venv
+Sources : IA ( ChatGPT) , Site Internet ( Python documentation , Openclassroom , Kinsta ) , Video Youtube ( Evolunoob ->Pyton classes , Doctsring -> Python : programmatation orienté objet ) , Cours ( Bonne pratique dev ) 
+
+##
+
 ## Bonne pratique qu'on a respecté :
 - Convention de commits Conventional Commits (feat, fix, chore, etc.)
 - Architecture modulaire et scalable
