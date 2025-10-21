@@ -15,7 +15,6 @@ architecture modulaire, gestion des erreurs, logging structuré, tests automatis
 
 ## 🏗️ Architecture du projet
 
-<<<<<<< HEAD
 <img width="700" height="833" alt="image" src="https://github.com/user-attachments/assets/73ebe73b-da64-4b24-a534-d6d5d61f422f" />
 
 
